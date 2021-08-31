@@ -1,0 +1,152 @@
+body {
+  background-color: #a6f0f2;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  background-color: ghostwhite;
+  border-radius: 20px;
+  padding: 30px;
+  width: 300px;
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #e7f0f5;
+  text-align: left;
+  outline: none;
+}
+
+#short-input {
+  width: 10px;
+  border-radius: 5px 0 0 5px;
+  margin-bottom: 10px;
+}
+
+#long-input {
+  display: inline;
+  width: 282px;
+  text-align: right;
+  border-radius: 0 5px 5px 0;
+}
+
+#short-input-two {
+  width: 10px;
+  border-radius: 5px 0 0 5px;
+  margin-bottom: 30px;
+}
+
+#long-input-two {
+  display: inline;
+  width: 282px;
+  text-align: right;
+  border-radius: 0 5px 5px 0;
+}
+
+.right-side {
+  background-color: #1b494f;
+  border-radius: 10px;
+  height: 220px;
+}
+
+.inner {
+  display: grid;
+/*   grid-template-columns: 100px 100px; */
+  grid-template-rows: 80px 80px;
+  grid-template-areas: 
+    'left right'
+    'b-left b-right';
+  padding: 10px;
+  color: white;
+}
+
+.inner h4 {
+  margin-bottom: 0px;
+}
+
+.block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  width: 270px;
+  height: 40px;
+  background-color: #6ac9cc;
+  border-radius: 5px;
+  border: 0px;
+  font-size: 22px;
+}
+
+.smaller {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 10px;
+  grid-template-areas: 
+    'one two'
+    'three four'
+    'five six';
+  margin-top: 5px;
+}
+
+.tip {
+  padding: 10px;
+  background-color: #1b494f;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  font-size: 22px;
+}
+
+#custom {
+  padding: 10px;
+  background-color: #e7f0f5;
+  border: 0px;
+  color: black;
+  font-weight: bold;
+  text-align: right;
+  border-radius: 5px;
+  font-size: 22px;
+  width: 130px;
+  height: 30px;
+}
+
+.text-input {
+  margin-bottom: 30px;
+}
+
+.tip-answer {
+  color: #6ac9cc;
+  padding-left: 20px;
+}
+
+.total-answer {
+  color: #6ac9cc;
+  padding-left: 20px;
+}
+
+.one {grid-area: one;}
+.two {grid-area: two;}
+.three {grid-area: three;}
+.four {grid-area: four;}
+.five {grid-area: five;}
+.six {grid-area: six;}
+
+.tip-amount {grid-area: left;}
+.total {grid-area: b-left;}
+.tip-answer {grid-area: right;}
+.total-answer {grid-area: b-right;}
+
+@media screen (max-width: 600px) {
+  
+}
