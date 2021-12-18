@@ -147,6 +147,14 @@ input {
 .tip-answer {grid-area: right;}
 .total-answer {grid-area: b-right;}
 
-@media screen (max-width: 600px) {
-  
+@media screen and (max-width: 600px) {
+    .container {
+        background-color: ghostwhite;
+        border-radius: 20px;
+        padding: 30px;
+        width: 650px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
 }
